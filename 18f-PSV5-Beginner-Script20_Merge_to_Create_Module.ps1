@@ -14,7 +14,7 @@
         {
         Write-Verbose -Message "$Quake
         Merging_This_File_Into_C:\Kruse\18f-Parent_File_MM_0.psm1.  Ctrl-c to cancel" -Verbose *>&1
-        Start-Sleep -Milliseconds 420
+        Start-Sleep -Milliseconds 500
         cls
         Add-Content -Path $Parent_psm1_Name -Value $(Get-Content $Quake) 
         }
